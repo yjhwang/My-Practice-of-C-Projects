@@ -1,0 +1,24 @@
+﻿IMPORTANT:THIS VERSION IS FOR ASP.NET CORE AND EF CORE
+
+    Minimal configuration (Web.Backload.config):
+
+
+    <!-- To enable database storage set storageContext="Database" -->
+    <backload storageContext="Database" filesUrlPattern="{backload}" thumbsUrlPattern="{base64}"  xsi:noNamespaceSchemaLocation="Config\Web.Backload.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:name="urn:backload-schema">
+  
+        <!-- Simple database storage with EF (storageMode="Internal"). Table name is "Files" -->
+        <database tableName="Files" storageMode="Internal" />
+  
+    </backload>
+
+
+
+IMPORTANT NOTE: 
+===============
+THE STANDARD EDITION HAS A 50 FILES LIMIT WITH DATABASE STORAGE
+
+
+Prices:
+- Standard Edition. Free.
+- Professional Edition (no limits): $19.90
+- Enterprise Edition (incl. source): $99.90

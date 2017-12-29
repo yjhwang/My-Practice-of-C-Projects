@@ -1,0 +1,25 @@
+﻿
+    Minimal configuration (Web.Backload.config):
+
+
+    <!-- To enable cloud storage set storageContext="CloudStorage" -->
+    <backload storageContext="CloudStorage"  xsi:noNamespaceSchemaLocation="Config\Web.Backload.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:name="urn:backload-schema">
+  
+      <!-- Cloud settings. Set service provider to Azure Blob storage -->
+      <cloudStorage serviceProvider="AzureBlobStorage">
+        <azureBlobStorage uploadContainer="uploads" />                <!-- Name of the upload container -->
+      </cloudStorage>
+  
+    </backload>
+
+
+
+IMPORTANT NOTE: 
+===============
+THE STANDARD EDITION HAS A 50 FILES LIMIT ON AZURE BLOB STORAGE
+
+
+Prices:
+- Standard Edition. Free.
+- Professional Edition (no limits): 20 EUR.
+- Enterprise Edition (incl. source): 50 EUR

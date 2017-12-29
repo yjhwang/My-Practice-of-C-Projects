@@ -1,0 +1,5 @@
+This Developer Package uses the Local Azure Blob Storage Emulator by default.
+In order to use this package, start the Local Azure Blob Storage Emulator manually.
+
+If you want to upload file to your Azure Storage account, enter your 
+Azure storage connection string in the appsettings.*.json file or in Web.Backload.config.

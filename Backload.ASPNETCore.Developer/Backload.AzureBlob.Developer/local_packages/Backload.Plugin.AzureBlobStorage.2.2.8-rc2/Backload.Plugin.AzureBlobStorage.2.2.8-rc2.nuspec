@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Backload.Plugin.AzureBlobStorage</id>
+        <version>2.2.8-rc2</version>
+        <title>Backload plugin for Azure Blob Storage</title>
+        <authors>Steffen Habermehl</authors>
+        <owners>Steffen Habermehl</owners>
+        <licenseUrl>https://github.com/blackcity/Backload/License.txt</licenseUrl>
+        <projectUrl>https://github.com/blackcity/Backload/wiki/Upgrade-and-migration</projectUrl>
+        <iconUrl>https://raw.github.com/blackcity/Backload/master/Examples/images/128/backload.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This plugin extends Backload, the server side file handler, to manage files on Microsoft Azure Blob storage,</description>
+        <summary>Backload plugin to manage files on Microsoft Azure Blob storage</summary>
+        <releaseNotes>This release:
+			- Added .NET Core support
+			- Refactored async code execution
+
+			IF YOU FIND PROBLEMS, PLEASE REPORT IT!</releaseNotes>
+        <copyright>Steffen Habermehl 2017</copyright>
+        <tags>Azure, Blob, Storage, Azure Blob PlUpload, FineUploader, upload</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
+                <dependency id="Microsoft.Bcl" version="1.1.10" />
+                <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+                <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="3.2.1" />
+                <dependency id="Microsoft.Data.Services.Client" version="5.7.0" />
+                <dependency id="WindowsAzure.Storage" version="7.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Newtonsoft.Json" version="8.0.3" />
+                <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="3.2.1" />
+                <dependency id="Microsoft.Data.Services.Client" version="5.7.0" />
+                <dependency id="WindowsAzure.Storage" version="7.0.0" />
+            </group>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="WindowsAzure.Storage" version="8.1.1" exclude="Build,Analyzers" />
+                <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+            </group>
+            <group targetFramework=".NETStandard1.5">
+                <dependency id="System.Composition.AttributedModel" version="1.0.31" exclude="Build,Analyzers" />
+                <dependency id="System.IO.Compression" version="4.3.0" exclude="Build,Analyzers" />
+                <dependency id="System.Net.Http" version="4.3.0" exclude="Build,Analyzers" />
+                <dependency id="WindowsAzure.Storage" version="8.1.1" exclude="Build,Analyzers" />
+                <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\net40\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" target="content\net40\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" />
+        <file src="content\net40\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll.config" target="content\net40\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll.config" />
+        <file src="content\net40\Backload\License.txt" target="content\net40\Backload\License.txt" />
+        <file src="content\net45\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" target="content\net45\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" />
+        <file src="content\net45\Backload\License.txt" target="content\net45\Backload\License.txt" />
+        <file src="content\net461\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" target="content\net461\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" />
+        <file src="content\net461\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll.config" target="content\net461\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll.config" />
+        <file src="content\net461\Backload\License.txt" target="content\net461\Backload\License.txt" />
+        <file src="content\netstandard1.5\Backload\Plugin\Backload.Plugin.AzureBlobStorage.deps.json" target="content\netstandard1.5\Backload\Plugin\Backload.Plugin.AzureBlobStorage.deps.json" />
+        <file src="content\netstandard1.5\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" target="content\netstandard1.5\Backload\Plugin\Backload.Plugin.AzureBlobStorage.dll" />
+        <file src="content\netstandard1.5\Backload\License.txt" target="content\netstandard1.5\Backload\License.txt" />
+    </files>
+</package>

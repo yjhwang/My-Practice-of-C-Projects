@@ -1,0 +1,127 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Demos</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <style type="text/css">
+        body {
+            margin: 100px;
+            margin-top: 50px;
+        }
+        div {
+            width: 800px;
+        }
+        h1 {
+            font: 400 40px Helvetica, Verdana, sans-serif;
+            margin: 30px 0px 10px -10px;
+            padding: 0;
+        }
+        h2 {
+            font: 400 30px Helvetica, Verdana, sans-serif;
+            margin: 30px 0px 10px -10px;
+            padding: 0;
+        }
+        div .note {
+            font: 200 16px/1.5 Helvetica, Verdana, sans-serif;
+            color: slategray;
+            margin-bottom: 40px;
+            display: block;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+            border-bottom: 1px solid #ccc;
+        }
+        li:last-child {
+            border: none;
+        }
+        li a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            width: 750px;
+            -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+            transition: font-size 0.3s ease, background-color 0.3s ease;
+        }
+        li a:hover {
+            font-size: 20px;
+            background: #f6f6f6;
+        }
+    </style>
+
+</head>
+<body>
+    <div> 
+        <div id="container">
+            <h1>ASP.NET Core 1.0 developer package</h1>
+            <div class="note">
+                Note: This developer package runs on the modularized, platform-independent .NET Core framework as well as on the full
+                .NET framework. It contains a pre-release package of Backload with image processing support (e.g. thumbnail generation).
+                 This package targets 2 Frameworks: 
+                "net461" (ASP.NET Core on the full .NET framework) and "netcoreapp1.0" (ASP.NET Core on .NET Core).<br />
+
+                Documentation/support: <a href="https://github.com/blackcity/backload/wiki" target="_blank">https://github.com/blackcity/backload/wiki</a>. 
+                Licenses: <a href="https://www.backload.org" target="_blank">http://www.backload.org</a>.<p />
+            </div>
+            <h2>jQuery File Upload Plugin from blueimp</h2>
+            <ul>
+                <li><a href="~/Home/basic">Basic Theme</a></li>
+                <li><a href="~/Home/basicplus">Basic Plus Theme</a></li>
+                <li><a href="~/Home/basicplusui">Basic Plus UI Theme</a></li>
+                <li><a href="~/Home/angularjs">AngularJS Theme</a></li>
+                <li><a href="~/Home/jqueryui">jQuery UI Theme</a></li>
+            </ul>
+            <h2>PlUpload from Moxiecode Systems AB</h2>
+            <ul>
+                <li><a href="~/Home/PlUploadSimple">Simple Style demo</a></li>
+                <li><a href="~/Home/PlUploadUI">UI Style demo</a></li>
+            </ul>
+            <h2>Fine Uploader from Widen Enterprises</h2>
+            <ul>
+                <li><a href="~/Home/FineUploaderDefault">Default UI demo</a></li>
+                <li><a href="~/Home/FineUploaderSimple">Simple UI with Thumbnails demo</a></li>
+                <li><a href="~/Home/FineUploaderGallery">Gallery View demo</a></li>
+            </ul>
+            <h2>Custom client demos</h2>
+            <ul>
+                <li><a href="~/Home/OtherCustomClient">Pure Javascript file upload demo</a></li>
+            </ul>
+            <h2>Custom controller demos</h2>
+            <ul>
+                <li><a href="~/Home/CustomBasic">Basic demo</a></li>
+                <li><a href="~/Home/CustomEvents">Events demo</a></li>
+                <li><a href="~/Home/CustomAPI">Basic API demo</a></li>
+                <li><a href="~/Home/CustomPostprocessing">Post processing demo</a></li>
+                <li><a href="~/Home/CustomDataProvider">Server side data provider demo</a></li>
+            </ul>
+            <h2>Chunked file upload demos</h2>
+            <ul>
+                <li><a href="~/Home/OtherChunkingBasic">Basic file chunking</a></li>
+                <li><a href="~/Home/OtherChunkingResume">Resume partially uploaded file</a></li>
+                <li><a href="~/Home/OtherChunkingAdvanced">Partial uploads advanced</a></li>
+                <li><a href="~/Home/OtherChunkingPauseResume">Pause/resume chunk uploads</a></li>
+            </ul>
+           <h2>Other demos</h2>
+            <ul>
+                <li><a href="~/Other/HTML/ClassicHTMLDemo.html">Classic HTML demo</a></li>
+                <li><a href="~/Home/CustomWebApi">WebApi controller demo</a></li>
+			</ul>
+        </div>
+
+    </div>
+</body>
+</html>

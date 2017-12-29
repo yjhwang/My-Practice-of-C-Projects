@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Backload.Plugin.Database</id>
+        <version>2.2.8-rc1</version>
+        <title>Backload Plugin for Database Storage</title>
+        <authors>Steffen Habermehl</authors>
+        <owners>Steffen Habermehl</owners>
+        <licenseUrl>https://github.com/blackcity/Backload/License.txt</licenseUrl>
+        <projectUrl>https://github.com/blackcity/Backload/wiki/Upgrade-and-migration</projectUrl>
+        <iconUrl>https://raw.github.com/blackcity/Backload/master/Examples/images/128/backload.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This plugin extends Backload, the server side file handler, to upload files to a database.</description>
+        <summary>Backload plugin to upload files to a database.</summary>
+        <releaseNotes>Standard Edition has a 50 Files limit. Pro/Enterprise Edition do not have a limt.
+
+		  Prices:
+		  - Standard Edition. Free.
+		  - Professional Edition (no limits): $19.90.
+		  - Enterprise Edition (incl. source): $99.90.</releaseNotes>
+        <copyright>Steffen Habermehl 2017</copyright>
+        <tags>Database, Sql Server, jQuery File Upload, PlUpload, FineUploader, upload</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
+                <dependency id="Microsoft.Bcl" version="1.1.10" />
+                <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+            </group>
+            <group targetFramework=".NETFramework4.5" />
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="System.Data.SqlClient" version="4.3.0" />
+            </group>
+            <group targetFramework=".NETStandard1.5">
+                <dependency id="System.IO.Compression" version="4.3.0" />
+                <dependency id="System.Net.Http" version="4.3.0" />
+                <dependency id="System.Data.SqlClient" version="4.3.0" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.IO.Compression" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.IO.Compression" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.6.1" />
+            <frameworkAssembly assemblyName="System.IO.Compression" targetFramework=".NETFramework4.6.1" />
+            <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.1" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+    </files>
+</package>

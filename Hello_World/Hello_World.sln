@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Hello", "Hello\Hello.shproj", "{C6CC66B3-88C8-4A38-A1F7-18196CDCFE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.iOS", "iOS\Hello.iOS.csproj", "{51CF7CFE-DEF3-4635-A08E-4344EE597735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.MobileAppService", "MobileAppService\Hello.MobileAppService.csproj", "{9AF7F8C8-FD69-4123-A688-A97F898CF29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Release|iPhone.ActiveCfg = Release|iPhone
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Release|iPhone.Build.0 = Release|iPhone
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{51CF7CFE-DEF3-4635-A08E-4344EE597735}.Debug|iPhone.Build.0 = Debug|iPhone
+		{9AF7F8C8-FD69-4123-A688-A97F898CF29A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{9AF7F8C8-FD69-4123-A688-A97F898CF29A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{9AF7F8C8-FD69-4123-A688-A97F898CF29A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{9AF7F8C8-FD69-4123-A688-A97F898CF29A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+This package includes 3rd party code:
+
+Product:  ImageSharp
+License:  Apache 2.0
+Licensor: James South
+Website:  https://github.com/JimBobSquarePants/ImageSharp/blob/master/APACHE-2.0-LICENSE.txt
+Changes:  The root namespace "ImageSparp" has been included into the Backload namespace Backload (Backload.Imaging.ImageSharp) to avoid naming conflicts.
+
+Apache 2.0 license explained: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+
+License text:
+Copyright 2012 James South
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.

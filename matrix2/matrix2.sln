@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrix2", "matrix2\matrix2.csproj", "{3D9EA141-0DC9-469C-B734-02241A5DA259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9EA141-0DC9-469C-B734-02241A5DA259}.Debug|x86.ActiveCfg = Debug|x86
+		{3D9EA141-0DC9-469C-B734-02241A5DA259}.Debug|x86.Build.0 = Debug|x86
+		{3D9EA141-0DC9-469C-B734-02241A5DA259}.Release|x86.ActiveCfg = Release|x86
+		{3D9EA141-0DC9-469C-B734-02241A5DA259}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
